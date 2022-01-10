@@ -1,0 +1,51 @@
+body{
+    background-image: url("háttérű.jpg");
+    color: blueviolet;
+    display:grid;
+    grid-template-columns:"h h h"
+                          "na na na"
+                          "a a as"
+                          "f f f"
+    
+    ;
+}
+header{
+    grid-template-areas: h;
+}
+nav{
+    grid-template-areas: na;
+    text-align: center;
+}
+article{
+    grid-template-areas: a;
+    background-color: grey;
+    margin: 40px;
+    image-resolution: 100%;
+    
+ 
+}
+ul {
+    list-style-type: none;
+}
+h2 {
+    text-align: center;
+}
+img{
+    
+    padding: 20px;
+}
+footer{
+    grid-template-areas: f;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+aside{
+    grid-template-areas: as;
+  
+}
