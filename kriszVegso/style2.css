@@ -1,0 +1,72 @@
+body{
+    background-image: url("háttérű.jpg");
+    color: black;
+    display:grid;
+    grid-template-columns:"h h h"
+                          "na na na"
+                          "a a a"
+                          "f f f"
+    
+    ;
+}
+header{
+    grid-template-areas: h;
+}
+nav{
+    background-color: darkgray;
+    grid-template-areas: na;
+    text-align: center;
+  
+   
+}
+article{
+    grid-template-areas: a;
+    background-color: grey;
+    margin: 50px;
+    image-resolution: 100%;
+    padding: 30px;
+    
+ 
+}
+ul {
+    list-style-type: none;
+   
+}
+h2 {
+    text-align: center;
+}
+li{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+img{
+    
+    padding: 20px;
+}
+footer{
+    grid-template-areas: f;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+video{
+    float: right;
+    padding-top: 50px;
+}
+@media only screen and (max-width: 800px) {
+    main {
+      display: grid;
+      grid-template-columns: "h h h"
+                             "na na na"
+                             "a a a"
+                             "f f f";
+                             
+    }
+  }
